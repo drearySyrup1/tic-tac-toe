@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css
+    ">
+</head>
+<body>
+    <div id="main">
+        <div id="select-player" class="player-select">
+            <div class="container-radio-button">
+                <input type="radio" name="player" id="x" checked>
+                <label for="x">
+                    <span class="mdi mdi-48px mdi-close"></span>
+                </label>
+            </div>
+            <div class="container-radio-button">
+                <input type="radio" name="player" id="o">
+                <label for="o">
+                    <span class="mdi mdi-48px mdi-circle-outline"></span>
+                </label>
+            </div>
+        </div>
+        <div id="select-mode" class="player-select">
+            <div class="container-radio-button">
+                <input type="radio" name="game-mode" id="2p">
+                <label for="2p">
+                    2 player
+                </label>
+            </div>
+            <div class="container-radio-button">
+                <input type="radio" name="game-mode" id="AI" checked>
+                <label for="AI">
+                    vs AI
+                </label>
+            </div>
+        </div>
+    </div>
+    <h2 id="turn">X Turn</h2>    
+    <div id="board">
+        <div data-id="0" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+        </div>
+        <div data-id="1" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+        </div>
+        <div data-id="2" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+
+        </div>
+        <div data-id="3" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+
+        </div>
+        <div data-id="4" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+
+        </div>
+        <div data-id="5" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+
+        </div>
+        <div data-id="6" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+
+        </div>
+        <div data-id="7" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+
+        </div>
+        <div data-id="8" class="cell">
+            <span data-type="x" class="hide mdi mdi-48px mdi-close"></span>
+            <span data-type="o" class="hide mdi mdi-48px mdi-circle-outline"></span>
+
+        </div>
+    </div>
+</body>
+</html>
