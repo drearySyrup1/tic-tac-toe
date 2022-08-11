@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "@mdi/font": "^7.0.96"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
